@@ -1,0 +1,47 @@
+body{
+    height: 200vh;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+    background-color: yellowgreen;
+    
+}  
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#box1{
+    position: relative;
+    top: 50%;
+    left: 90px;
+    z-index: 0;
+}
+#box2{
+    background-color: blueviolet;
+    
+    top: 50%;
+    left: 0px;
+    
+    
+}
+#box3{
+    
+    background-color: black;
+    position: absolute;
+}
+#box4{
+    background-color: aquamarine;
+    position: sticky;
+    top: 0%;
+    left: 0px;
+    z-index: 0;
+}
+button :active{
+    background-color: red;
+    
+}

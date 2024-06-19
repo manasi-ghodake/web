@@ -1,0 +1,20 @@
+.box{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 100px;
+    border:20px dotted;
+
+
+
+
+}
+.box1 {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    box-sizing: content-box;
+    padding: 10px;
+
+}

@@ -1,0 +1,15 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: auto;
+    /*transform: scale(1.5,1);*/
+    
+    translate: (10px,10px);
+    rotate: 75deg;
+    scale: 2;
+
+    
+    
+
+}

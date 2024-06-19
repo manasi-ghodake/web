@@ -1,0 +1,29 @@
+.card  {
+    background-color: black;
+    width: 400px;
+    
+}
+.card img{
+    background-color: black;
+    width: 400px;
+    height: 300px;
+    border: 3px solid;
+
+
+
+}
+.card p{
+    background-color: aquamarine;
+    
+    color: black;
+    width: 400px;
+    height: 200px;
+    border: 1px dotted;
+}
+.card button{
+    background-color: brown;
+    color: blueviolet;
+    width: 400px;
+    height: 200px;
+
+}

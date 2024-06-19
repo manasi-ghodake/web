@@ -1,0 +1,17 @@
+div{
+    
+}
+div img{
+}
+div p{
+    background-color: crimson;
+    color: blue;
+    filter: none;
+    width: 80px;
+    border-radius: 6px;
+    
+}
+#para{
+    filter: blur(2px);
+
+}
