@@ -1,0 +1,30 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'poppins',sans-serif;
+   box-sizing: border-box; 
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #f0e9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+ img-box{
+    width:100px ;
+    height: 500px;
+    margin: 10px;
+    border-right: 50px;
+    background: url('https://media.istockphoto.com/id/1394440950/photo/natural-view-cosmos-filed-and-sunset-on-garden-background.webp?b=1&s=612x612&w=0&k=20&c=o3n-h2j4aBnaDqKeY-876cTRm1DLOsZcCjcfDZf_9TQ=');
+    background-position: center;
+}

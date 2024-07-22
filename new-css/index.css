@@ -1,0 +1,37 @@
+.moon {
+    
+    
+    
+
+
+&::before,
+&::after {
+    content: "";
+    
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    z-index: 1;
+    box-shadow: 0 0 20px 20px #1c084f;
+    
+
+    }
+    &::before {
+        width: 100px;
+        height: 100px;
+        background-color: #1c084e;
+
+    }
+    &::after {
+        width: 270px;
+        height: 270px;
+        background-color: black;
+        
+        animation: circle-size 0.02s linear ease-in-out alternate;
+    }
+}
+
