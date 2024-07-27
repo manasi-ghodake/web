@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.container {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* background-color: grey; */
+    width: 400px;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+.square {
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    /* margin: 2px; */
+    /* background-color: black; */
+    /* box-shadow:  rgba(0px, 0px, 0px, 2px); */
+    background:rgba(255,255,255,0.1);
+    /* transition: 2s ease; */
+    
+}

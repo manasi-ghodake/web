@@ -1,0 +1,33 @@
+
+*body{
+    background-color: #212129;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+#btn{
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    background-color: #212129;
+    color: white;
+    border: none;
+
+}
+#search{
+    width: 250px;
+    height: 40px;
+    position: absolute;
+    
+    padding: 15px;
+    border-radius: 25px;
+    background-color: black;
+    outline:none;
+    color: white;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
