@@ -1,10 +1,16 @@
-const search = document.getElementById("search")
+const search = document.getElementById("search");
 const btn = document.getElementById("btn");
 
-let openInpute = true;
-const Inpute = 
+let openInput = true;
 
-btn.addEventListener("click",()=>{
-    console.log("clicked");
-});
+const input= ()=>{
+    if (openInput){
+        search.style.width = 0;
+        openInput=false;
+    }else{
+        search.style.width = "150px";
+        openinput = true;
+    }
+};
 
+btn.addEventListener("click",input);

@@ -1,6 +1,6 @@
-const squareArray = document.getElementsByClassName("square");
+const squareArray = document.getElementById("Squares");
 
-const colors = ["red,green,orange,yellow,pink"];
+const colors = ["red","green","orange","yellow","pink"];
 
 const Color = "rgba(255,255,255,)";
 
@@ -18,7 +18,6 @@ for( const square of squareArray) {
     });
     square.addEventlistener("mouseout",() => {
         square.style.backgroundColor = defaultColor;
-        
         square.style.transition = "background-color 2s ease";
         square.style.boxShow = "";
         
